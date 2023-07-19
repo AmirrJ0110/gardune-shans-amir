@@ -4,5 +4,5 @@ let value = Math.ceil(Math.random() * 3600);
 
 spinBtn.onclick = function () {
   wheel.style.transform = "rotate(" + value + "deg)";
-  value += math.ceil(match.random() * 3600);
+  value += Math.ceil(Math.random() * 3600);
 };
